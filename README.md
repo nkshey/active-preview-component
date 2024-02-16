@@ -54,5 +54,5 @@ Users should be able to:
 
 ## Author
 
--  Website - [Nika Peikrishvili](https://www.linkedin.com/in/nikapeikrishvili/)
+-  LinkedIn - [Nika Peikrishvili](https://www.linkedin.com/in/nikapeikrishvili/)
 -  Frontend Mentor - [@nkshey](https://www.frontendmentor.io/profile/nkshey)
