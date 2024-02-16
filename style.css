@@ -68,6 +68,8 @@ main {
    display: grid;
    grid-template-columns: 28.5rem minmax(0, 1fr);
    max-width: 73rem;
+
+   box-shadow: 0 2rem 5rem hsla(212, 23%, 69%, 0.1);
 }
 
 .img-drawer {
