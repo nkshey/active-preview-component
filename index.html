@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+      />
+      <title>Frontend Mentor | Article preview component</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <main>
+         <div class="img-container">
+            <img
+               class="img-drawer"
+               src="images/drawers.jpg"
+               alt="drawer image"
+            />
+         </div>
+
+         <section class="content">
+            <h2 class="heading">
+               Shift the overall look and feel by adding these wonderful touches
+               to furniture in your home
+            </h2>
+
+            <p class="subText">
+               Ever been in a room and felt like something was missing? Perhaps
+               it felt slightly bare and uninviting. I’ve got some simple tips
+               to help you make any room feel complete.
+            </p>
+
+            <div class="author-container">
+               <div class="author">
+                  <img
+                     class="img-avatar"
+                     src="images/avatar.png"
+                     alt="avatar image"
+                  />
+
+                  <div class="author-info">
+                     <p class="author-name">Nika Peikrishvili</p>
+                     <p class="publish-date">16 Feb 2024</p>
+                  </div>
+               </div>
+
+               <div class="share">
+                  <button class="share-btn">
+                     <ion-icon name="arrow-redo"></ion-icon>
+                  </button>
+
+                  <div class="share-container">
+                     <span>Share</span>
+
+                     <div class="share-options">
+                        <a href="https://github.com/nkshey" target="_blank">
+                           <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                        <a
+                           href="https://www.frontendmentor.io/profile/nkshey"
+                           target="_blank"
+                        >
+                           <ion-icon name="code-slash-outline"></ion-icon>
+                        </a>
+                        <a
+                           href="https://www.linkedin.com/in/nikapeikrishvili/"
+                           target="_blank"
+                        >
+                           <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!-- Importing ionicons -->
+      <script
+         type="module"
+         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+         nomodule
+         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      ></script>
+
+      <!-- Linking JavaScript -->
+      <script src="script.js"></script>
+   </body>
+</html>
